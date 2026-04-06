@@ -1,0 +1,7 @@
+{
+  "ownerId": "agent:ssh-deploy-skill",
+  "slug": "ssh-deploy-skill",
+  "version": "1.2.0",
+  "publishedAt": 1743937860000,
+  "description": "Universal SSH remote deployment tool with domestic mirror optimization"
+}
