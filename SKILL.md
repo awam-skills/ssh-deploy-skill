@@ -1,5 +1,6 @@
 ---
 name: ssh-deploy-skill
+version: 1.2.0
 description: Universal SSH remote deployment tool - multi-server management, batch deployment, installation script templates with domestic mirror optimization. Supports remote installation of Git, Docker, MySQL, PostgreSQL, Nginx, Node.js, Redis, Python and more.
 when: When you need to deploy Linux servers remotely, batch install software, or manage SSH connections (e.g., install Docker, configure databases, sync files)
 examples:
