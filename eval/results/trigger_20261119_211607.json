@@ -1,0 +1,57 @@
+{
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "tn": 3
+  },
+  "question": null,
+  "rows": [
+    {
+      "text": "用 SSH 部署到远程服务器",
+      "expect": true,
+      "predicted": true,
+      "raw": "yes"
+    },
+    {
+      "text": "批量在多台机器安装 Docker / Nginx",
+      "expect": true,
+      "predicted": true,
+      "raw": "yes"
+    },
+    {
+      "text": "远程安装 MySQL 并用国内镜像加速",
+      "expect": true,
+      "predicted": true,
+      "raw": "yes"
+    },
+    {
+      "text": "管理多服务器部署配置",
+      "expect": true,
+      "predicted": true,
+      "raw": "yes"
+    },
+    {
+      "text": "用 toolport 搜索已连接服务器的工具",
+      "expect": false,
+      "predicted": false,
+      "raw": "no"
+    },
+    {
+      "text": "给腾讯云服务器端口放行白名单",
+      "expect": false,
+      "predicted": false,
+      "raw": "no"
+    },
+    {
+      "text": "检查本机环境连通性",
+      "expect": false,
+      "predicted": false,
+      "raw": "no"
+    }
+  ]
+}

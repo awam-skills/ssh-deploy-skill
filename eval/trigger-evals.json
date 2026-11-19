@@ -1,0 +1,36 @@
+{
+  "_readme": "awam-skill-eval 生成：意图路由评测集。正例=描述触发场景；负例=confusable sibling 的「看起来像但不该触发」边界例。只读评测资产。",
+  "_skill": "ssh-deploy-skill",
+  "_n_pos": 4,
+  "_n_neg": 3,
+  "queries": [
+    {
+      "text": "用 SSH 部署到远程服务器",
+      "expect_trigger": true
+    },
+    {
+      "text": "批量在多台机器安装 Docker / Nginx",
+      "expect_trigger": true
+    },
+    {
+      "text": "远程安装 MySQL 并用国内镜像加速",
+      "expect_trigger": true
+    },
+    {
+      "text": "管理多服务器部署配置",
+      "expect_trigger": true
+    },
+    {
+      "text": "用 toolport 搜索已连接服务器的工具",
+      "expect_trigger": false
+    },
+    {
+      "text": "给腾讯云服务器端口放行白名单",
+      "expect_trigger": false
+    },
+    {
+      "text": "检查本机环境连通性",
+      "expect_trigger": false
+    }
+  ]
+}
